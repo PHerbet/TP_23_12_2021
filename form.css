@@ -1,0 +1,8 @@
+body{
+    background-color: radial-gradient ( circle at center, #2B2D42,#EDF2F4);
+}
+header{
+    display:block;
+    width: auto;
+    margin:auto;
+}

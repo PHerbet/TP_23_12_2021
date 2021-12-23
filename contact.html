@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <img src="ban.png" id="ban" height="200px" width="800px">
+        <h1>Un gros titre</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#ancre">Blog</a></li>
+                    <li><a href=""alt="rien">Gallerie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <form method="POST" action="monProgramme.php">
+        <fieldset>
+            <legend>La légende de l'ouest</legend>
+                <label for="name">Nom</label>
+                    <div><input type="text" id="name" name="name" placeholder="Ex: Martin" maxlength="20" minlength="2"></div></br>
+                <label for="mail">Mail</label>
+                    <div><input type="email" name="mail" placeholder="Ex: martin.matin@aol.com"></div></fieldset></br>
+                <label for="remark">Commentaires</label>
+                    <textarea name="remark" id="com" cols="70" rows="10" placeholder="Lache toi je lis pas les coms!"></textarea></br>
+                <label for="check">Envoit d'une copie?</label>    
+                    <div><input type="checkbox" name="check" checked></div></br>
+                    <div><input type="submit" value="envoyer"><input type="reset" value="supprimer"></div>
+        </fieldset>
+    </form>
+    <footer>
+        <ul>
+            <li><a href="index.html#sky">lien</a></li>
+            <li><a href="index.html#ban">qui</a></li>
+            <li><a href="contact.html#name">sert</a></li>
+            <li><a href="contact.html#com">à rien</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
