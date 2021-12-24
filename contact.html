@@ -10,7 +10,7 @@
 <body>
     <header>
         <img src="ban.png" id="ban" height="200px" width="800px">
-        <h1>Un gros titre</h1>
+        <h1>Lorem</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
@@ -23,15 +23,15 @@
     <form method="POST" action="monProgramme.php">
         <fieldset>
             <legend>La légende de l'ouest</legend>
-                <label for="name">Nom</label>
-                    <div><input type="text" id="name" name="name" placeholder="Ex: Martin" maxlength="20" minlength="2"></div></br>
-                <label for="mail">Mail</label>
-                    <div><input type="email" name="mail" placeholder="Ex: martin.matin@aol.com"></div></fieldset></br>
-                <label for="remark">Commentaires</label>
+                <label for="name">Nom:<strong>*</strong></label>
+                    <span><input type="text" id="name" name="name" placeholder="Ex: Martin" maxlength="20" minlength="2"></span></br>
+                <label for="mail">Mail:<strong>*</strong></label>
+                    <span><input type="email" name="mail" placeholder="Ex: martin.matin@aol.com"></span></fieldset></br>
+                <label for="remark">Commentaires:<strong>*</strong></label></br>
                     <textarea name="remark" id="com" cols="70" rows="10" placeholder="Lache toi je lis pas les coms!"></textarea></br>
                 <label for="check">Envoit d'une copie?</label>    
-                    <div><input type="checkbox" name="check" checked></div></br>
-                    <div><input type="submit" value="envoyer"><input type="reset" value="supprimer"></div>
+                    <span><input type="checkbox" name="check" checked></span></br>
+                    <span><input type="submit" value="envoyer"><input type="reset" value="supprimer"></span>
         </fieldset>
     </form>
     <footer>

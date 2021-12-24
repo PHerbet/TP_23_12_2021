@@ -1,8 +1,56 @@
 body{
-    background-color: radial-gradient ( circle at center, #2B2D42,#EDF2F4);
+    background: radial-gradient( circle at top, #a3e783, #e692a3);
 }
 header{
-    display:block;
-    width: auto;
+    width: 800px;
     margin:auto;
+}
+h1{
+    color: #EF233C;
+    font-size: xx-large;
+    font-family: Impact;
+    font-weight: 900;
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+h3{
+    columns: #2B2D42;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    display: inline;
+}
+p{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+div{
+    text-align: center;
+}
+img{
+    border-width: 2px;
+    border-color: #8D99AE;
+    border-style: solid;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+li a:link{
+    color:#D90429;
+}
+li a:visited{
+    color: grey;
+}
+li a:hover{
+    color:#2B2D42;
+}
+strong{
+    color:red;
 }
